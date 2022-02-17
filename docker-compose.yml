@@ -12,7 +12,7 @@ services:
   nginx:
     build: ./nginx
     image: 190600895018.dkr.ecr.us-east-1.amazonaws.com/django_docker_aws:django_docker_aws_nginx
-:
+
     volumes:
       - static_volume:/usr/src/app/static
     ports:
